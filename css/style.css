@@ -617,16 +617,21 @@ body .social-logo-leftbar{
 }
 
 .icon-bg{
-    width: 145px !important;
-    height: 145px !important;
+    width: 180px !important;
+    height: 180px !important;
     background-color: #ecedf2;
     border-radius: 50%;
     color: #249db6;
     transition: all 0.3s ease-in-out;
 
 }
+.icon-bg img{
+    width: 170px !important;
+    height: 170px !important;
+    border-radius: 50%; 
+}
 .carder.card-1:hover .icon-bg {
-    background-color:  #365fa0;
+    background-color:  #249db6;
 }
 
 .arrow-icon {
