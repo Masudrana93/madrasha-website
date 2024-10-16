@@ -512,56 +512,7 @@ body .social-logo-leftbar{
 
 /* ----Events part CSS end---- */
 
-/* -----Actions Section CSS Start----- */
 
-
-.action-card-tag{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: auto;
-    width: 100%;
-    background: #249db6;
-    color: #fff;
-    font-size: 12px;
-    
-    
-}
-.plus-icon-position{
-    font-size: 24px ;
-    color: #fff;
-    text-align: center;
-    width: 20px;
-    height: 20px;
-    background: #365fa0;
-    border-radius: 50%;
-    position: absolute; 
-    bottom: -18px;
-    left: 50%;
-    margin-left: -18px;
-    
-}
-.text-sub-heading-color{
-color: gray;
-}
-.col-md-3.col-12.bg-white.p-4.position-relative{
-    transition: all 0.5s;
-}
-
-.col-md-3.col-12.bg-white.p-4.position-relative:hover {
-    box-shadow: 0 0 11px gray;
-    
-}
-.col-md-3.col-12.bg-white.p-4.position-relative:hover .plus-icon-position {
-    background: #249db6;
-    transform: scale(1.2);
-}
-.transition-actions {
-    transition: all 0.5s ease-in-out;
-}
-
-
-/* -----Actions Section CSS End----- */
 
 /* ------Testimony Section CSS Start----- */
 
