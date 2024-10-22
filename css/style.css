@@ -970,3 +970,25 @@ video {
 
 /* -----gallery css end---- */
 
+/* Form CSS Start  */
+.box-size input, .box-size select{
+    width: 100%;
+    padding: 6px 12px;
+}
+
+
+.font-size{
+    font-size: 18px;
+}
+
+
+.col-10 {
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.form-section-bg{
+    background: gainsboro;
+}
+/* Form CSS End */
