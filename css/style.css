@@ -900,7 +900,7 @@ ul.share-list li a{
     top: 0;
     position: absolute;
     width: 100%;
-    height: 400px;
+    height: 200px;
 }
 .committee-menu:hover {
     background: #249db6;
@@ -945,21 +945,26 @@ ul.share-list li a{
 
 .ba-imag img {
     width: 100%;
-    height: 400px;
+    height: 200px;
 }
 /* -------Divisional Committee Css End--------  */
 
 /* -----gallery css Start---- */
-.photo-border{
-    border:4px solid #D9DAE1;
+
+.box-size{
+    width: 306px;
+    height: 230px;
+
 }
 
 .g-photo-title {
     position: absolute;
-    bottom: 19px;
-    left: 15px;
-    right: 15px;
+    bottom: 0px;
+    /* left: 15px;
+    right: 15px; */
     background-color: rgba(0, 0, 0, 0.3);
+    width: 306px;
+    height: 60px;
 }
 
 video {
