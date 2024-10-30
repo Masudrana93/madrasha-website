@@ -962,7 +962,7 @@ ul.share-list li a{
     bottom: 0px;
     /* left: 15px;
     right: 15px; */
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(63, 28, 238, 0.3);
     width: 306px;
     height: 60px;
 }
@@ -997,3 +997,44 @@ video {
     background: gainsboro;
 }
 /* Form CSS End */
+
+
+
+
+/* ***Department & faculty CSS Start *** */
+
+/* 
+.depart-photo-title img{
+    transition: all 0.5s ease-in-out;
+}
+.depart-photo-title img:hover {
+    transform: scale(1.1);
+   
+}
+
+.depart-photo-title {
+
+    height: 200px;
+    overflow: hidden;
+}
+
+.depart-title-box  a:hover {
+    color: blue !important;
+}
+
+.depart-title-box p a {
+    transition: all 0.3s ease-in-out !important;
+}
+
+.depart-title-box{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    
+}
+
+ */
+
+
+
+/* ***Department & faculty CSS End *** */
