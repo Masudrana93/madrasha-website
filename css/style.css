@@ -345,9 +345,7 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 
 }
 .news-photo-border{
-    border-radius: 0px !important;
-    border-color: none !important;
-    overflow: hidden;
+       overflow: hidden;
     
 }
 /* .news-photo-tag{
@@ -364,7 +362,7 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 } */
 
 .ria-medam:hover .news-photo-border img {
-    transform: scale(1.5);
+    transform: scale(1.1);
   
 }
 
@@ -378,6 +376,10 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 }
 .news-photo-border img{
     transition: .8s !important;
+}
+
+.card-body.card {
+    height: 150px;
 }
 
 /* News card part end  */
@@ -719,7 +721,7 @@ body .social-logo-leftbar{
     border-top:4px solid #365fa0;
     border-bottom:4px solid #365fa0;
     position: absolute;
-    padding: 80px 100px;
+    padding: 80px 80px;
 }
 
 
