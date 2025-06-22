@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Merriweather", serif;
 }
 
 @font-face {
@@ -46,11 +45,27 @@ background-color: #249db6;
 }
 
 .bg-body-color{
-    background-color: #ecedf2;
+   
+    background-image: url(images/islamic-bg-1.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
-.text-font{
+
+.news-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* .text-font{
     font-family: sans-serif;
-}
+} */
 /* ************ Some important css end ********** */
 
 /* ---Nav-bar CSS Star--- */
@@ -235,7 +250,7 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
    /* Background Image Start */
 
 .background-pic {
-    background-image: url(../images/event-2.jpg);
+   background-image: url(images/main-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -339,10 +354,10 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 }
 
 /* News card part start  */
-.card-img-top{
+/* .card-img-top{
     width: 300px !important ;
     height:200px !important ;
-}
+} */
 
 .margin-top{
     margin-top: 200px;
@@ -353,7 +368,7 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     border-bottom:5px 3px solid red;
 } */
 .title-color{
-    color: #365fa0;
+    color:#365fa0 ;
     font-weight: 700;
 }
 .news-heading-border{
@@ -534,6 +549,16 @@ transition:all 0.3s ;
     position: absolute;
     bottom: 45px;
     left: 50px;
+}
+
+.tranparent-color{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
 
 
