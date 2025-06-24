@@ -664,6 +664,7 @@ transition:all 0.3s ;
     font-weight: 600;
     
     border-right: 3px solid #bbf002;
+    border-left: 3px solid #bbf002;
    
 }
 
@@ -695,6 +696,7 @@ transition:all 0.3s ;
     align-items: center;
     color: #fff;
     font-size: 20px;
+    z-index: 500;
 }
 
 .arrow-icon.icon-1 {
@@ -739,6 +741,20 @@ transition:all 0.3s ;
 
 /* join button CSS end  */
 
+.slider-bg {
+   background-image: url(images/slider-bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.slider-tranparent-bg-color {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 
 /*----- owl-carousel-1 css End ----- */

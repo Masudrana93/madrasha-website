@@ -1,5 +1,6 @@
 $(".carousel").owlCarousel({
     margin: 20,
+    nav:true,
     loop: true,
     autoplay: false,
     autoplayTimeout: 2000, //2000 ms = 2 sec.//
