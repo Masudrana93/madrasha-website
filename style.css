@@ -653,6 +653,9 @@ transition:all 0.3s ;
     padding: 0 30px;
 
 }
+.owl-item{
+    width: 360px !important;
+}
 
 .carousel .carder{
     /* background: red; */
@@ -874,7 +877,7 @@ ul.share-list li a{
     border-radius: 0 !important;
 }
 .search-size{
-    width: 600px;
+    /* width: 600px; */
 }
 /* search-bar CSS End */
 
@@ -1102,3 +1105,13 @@ video {
 
 
 /* ***Department & faculty CSS End *** */
+
+.background-pic-2 {
+   background-image: url(images/backgroun-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 90px;
+    height: 250px;
+    position: relative;
+}
