@@ -1,44 +1,67 @@
 /* Default Layout: 992px.*/
 
-  /* Tablet Layout: 768px. */
-  
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-  
-    
-  }
-  
-  /* Mobile Layout: 320px.*/
-  @media only screen and (max-width: 767px) {
-    
-    .navbar-brand img{
-      width: 160px ;
-      height: auto;
-    }
+/* Tablet Layout: 768px. */
 
-    .dropdown-menu.show{
-      padding: 10px;
-      
-    }
-    .offcanvas-body{
-      background-color: #bbf002;
-     
-    }
-    .offcanvas-title{
-      color:#365fa0 ;
-      font-weight: 700;
-    }
-    .navbar-toggler{
-      border-radius: 0px !important;
-    }
-    .navbar-toggler:focus {
-      box-shadow: none !important;
-    }
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Mobile Layout: 320px.*/
+@media only screen and (max-width: 767px) {
+
+  .navbar-brand img {
+    width: 160px;
+    height: auto;
+  }
+
+  .dropdown-menu.show {
+    padding: 10px;
 
   }
-  
-  /*Wide Mobile Layout: 480px.*/
-  
-  @media only screen and (min-width: 480px) and (max-width: 767px) {
-    
+
+  .offcanvas-body {
+    background-color: #bbf002;
 
   }
+
+  .offcanvas-title {
+    color: #365fa0;
+    font-weight: 700;
+  }
+
+  .navbar-toggler {
+    border-radius: 0px !important;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+
+  .arrow-icon.icon-2 {
+    position: absolute;
+    left: 125px;
+    bottom: 3%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .arrow-icon {
+    width: 60px;
+    height: 60px;
+    background: #249db6;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    z-index: 500;
+  }
+
+  .arrow-icon.icon-1 {
+    right: 140px !important;
+    top: 100% !important;
+  }
+
+}
+
+/*Wide Mobile Layout: 480px.*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

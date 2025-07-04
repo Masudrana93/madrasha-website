@@ -480,7 +480,7 @@ transition:all 0.3s ;
 .event-photo{
     position: relative;
     width: 100%;
-    height: 172px !important;
+    height: auto;
 }
 .seminar-photo{
     overflow:hidden
@@ -775,7 +775,7 @@ transition:all 0.3s ;
 
 .padding-bottom{
     padding-bottom: 55px;
-    min-height:1150px ;
+    min-height:500px ;
 }
 
 .about-position {
@@ -900,8 +900,8 @@ ul.share-list li a{
 }
 
 .card-icon{
-    bottom: 6px;
-    right: 0;
+    bottom: 8px;
+    right: 2px;
 }
 .card-icon a{
     background: #249db6;
@@ -1051,11 +1051,11 @@ video {
 }
 
 
-.col-10 {
+/* .col-10 {
     border: 2px solid gray;
     border-radius: 6px;
     padding: 30px;
-}
+} */
 
 .form-section-bg{
     background: gainsboro;
