@@ -36,15 +36,17 @@
   }
 
   .arrow-icon.icon-2 {
-    left: 140px !important;
+    left: 100px !important;
     top: 90% !important;
     
   }
-
+.footer-border-right{
+  border-right: none !important;
+}
   
 
   .arrow-icon.icon-1 {
-    right: 140px !important;
+    right: 100px !important;
     top: 90% !important;
   }
 

@@ -239,6 +239,7 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 
 .footer-lower-title{
   font-size:13px ;
+  
 }
 
 /* Footer lower title end */
@@ -659,7 +660,7 @@ transition:all 0.3s ;
 
 .carousel .carder{
     /* background: red; */
-    width: 100%;
+    width: 90%;
     
     text-align: center;
     
