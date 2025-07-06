@@ -480,7 +480,7 @@ transition:all 0.3s ;
 
 .event-photo{
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     height: auto;
 }
 .seminar-photo{
@@ -1108,11 +1108,15 @@ video {
 /* ***Department & faculty CSS End *** */
 
 .background-pic-2 {
-   background-image: url(images/backgroun-4.jpg);
+   background-image: url(images/onostan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     margin-top: 90px;
     height: 250px;
     position: relative;
+}
+
+.firstBorderBottom{
+    border-bottom: 25px solid #365fa0;
 }
